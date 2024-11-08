@@ -3,7 +3,7 @@ Scale
 
 Description:
 """
-#Logical Regresion
+#Logical Regression
 def Scale1(z):
     e = 2.718
     return round(139.5 / (1 + 0.3845 * (e ** (0.02316 * z))))
@@ -12,7 +12,7 @@ def Scale1(z):
 def Scale(z, CamDistance):
     #return 15
     z += CamDistance
-    r = round(-0.085 * z) + 50
+    r = round(-0.16 * z) + 50
     #print(r)
     return r
 
